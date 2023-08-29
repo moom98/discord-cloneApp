@@ -1,12 +1,15 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React from "react";
+import Sidebar from "./components/sidebar/Sidebar";
 import "./App.scss";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <div className="App">
+        <Sidebar />
+      </div>
+    </>
+  );
 }
 
 export default App;
