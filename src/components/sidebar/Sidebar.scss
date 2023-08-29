@@ -32,5 +32,75 @@
 }
 
 .sidebar__right {
+  position: relative;
+  width: 300px;
   background-color: #2b2d33;
+
+  .sidebar__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .sidebar__channels {
+    padding: 13px;
+  }
+
+  .sidebar__channelsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  .sidebar__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  .sidebar__addChannel {
+    cursor: pointer;
+  }
+
+  .sidebar__footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    margin-left: -3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #686a6e;
+  }
+
+  .sidebar__account {
+    display: flex;
+    align-items: center;
+    img {
+      width: 50px;
+    }
+  }
+
+  .sidebar__accountName {
+    margin-left: 5px;
+
+    h4 {
+      font-weight: 500;
+    }
+
+    span {
+      color: #686a6e;
+    }
+  }
+
+  .sidebar__voice {
+    display: flex;
+    align-items: center;
+    color: #686a6e;
+  }
 }
